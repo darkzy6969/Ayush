@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+    border-radius: 0;
+    border: 0;
+    
+}
+#logo-img{
+    background: url("E:/Project-Portfolio/mainlogo.png");
+    width:150px;
+    height:150px;
+    margin: 10px 15px 10px 0;
+}
+#xslogo{
+    background: url("E:/Project-Portfolio/xs-logo.png");
+    width: 90px;
+    height: 90px;
+    margin: 10px 10px 5px 10px;
+
+}
+.navbar-brand h1{
+    font-family: 'Sora', sans-serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+#nav-list a{
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+}
+#nav-list a:hover{
+    background-color: rgb(247, 247, 93);
+    border: 1px solid black;
+}
+#nav-list a span{
+    font-size: 1.5em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid black;
+  }

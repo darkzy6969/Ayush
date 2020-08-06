@@ -1,11 +1,11 @@
 body{
     background-color: white;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
 }
 #header-nav{
     border-radius: 0;
     border: 0;
-    
+    background-color: rgb(211, 211, 79);
 }
 #logo-img{
     background: url("E:/Project-Portfolio/mainlogo.png");
@@ -21,7 +21,7 @@ body{
 
 }
 .navbar-brand h1{
-    font-family: 'Sora', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: black;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -37,17 +37,100 @@ body{
     margin-top: -30px;
   }
 #nav-list a{
-    color: black;
-    font-size: 1.2em;
+    color: rgb(66, 64, 64);
+    font-size: 1.3em;
     text-align: center;
 }
 #nav-list a:hover{
-    background-color: rgb(247, 247, 93);
-    border: 1px solid black;
+    color: black;
 }
 #nav-list a span{
     font-size: 1.5em;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 2px solid black;
-  }
+}
+#abt{
+    font-size: 40px;
+    text-align: center;
+}
+#abtpara{
+    text-align: center;
+    padding: 30px 150px 0 150px;
+    font-size: 20px;
+}
+#colab{
+    font-size: 40px;
+    text-align: center;
+}
+.social_media {
+    display: flex;
+    text-align: center;
+    padding:0 450px 0 450px;
+}
+
+.social_media a {
+    color: #8C8C8C;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+}
+
+#github {
+    width: 45px;
+    height: 45px;
+    color: #8C8C8C;
+}
+
+#github:hover {
+    color: black;
+}
+
+#instagram {
+    width: 45px;
+    height: 45px;
+    color: #8C8C8C;
+}
+
+#instagram:hover {
+    color: black;
+}
+
+#linkeden {
+    width: 45px;
+    height: 45px;
+    color: #8C8C8C;
+}
+
+#linkeden:hover {
+    color: black;
+}
+
+#facebook {
+    width: 45px;
+    height: 45px;
+    color: #8C8C8C;
+}
+
+#facebook:hover {
+    color: black;
+}
+
+#twitter {
+    width: 45px;
+    height: 45px;
+    color: #8C8C8C;
+}
+
+#twitter:hover {
+    color: black;
+}
+#lay{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin-left: 450px;
+}

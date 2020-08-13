@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: white;
     font-family: 'Fjalla One', sans-serif;
@@ -12,7 +15,9 @@ body{
     width:150px;
     height:150px;
     margin: 10px 15px 10px 0;
+    border: 2px solid black;
 }
+
 #xslogo{
     background: url("E:/Project-Portfolio/xs-logo.png");
     width: 90px;
@@ -37,7 +42,7 @@ body{
     margin-top: -30px;
   }
 #nav-list a{
-    color: rgb(66, 64, 64);
+    color: rgb(68, 66, 66);
     font-size: 1.3em;
     text-align: center;
 }
@@ -50,13 +55,20 @@ body{
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 2px solid black;
 }
+#gname{
+    margin: 20px 60px 20px;
+}
+#gnamebox{
+    width: 150px;
+}
 #abt{
     font-size: 40px;
     text-align: center;
+    text-shadow: 2px;
 }
 #abtpara{
     text-align: center;
-    padding: 30px 150px 0 150px;
+    padding: 30px 150px 20px 150px;
     font-size: 20px;
 }
 #colab{
@@ -133,4 +145,5 @@ body{
     height: 400px;
     width: 400px;
     margin-left: 450px;
+    margin-top: 30px;
 }

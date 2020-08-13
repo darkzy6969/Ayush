@@ -34,25 +34,33 @@
                     <div id="collapsable-nav" class="collapse navbar-collapse">
                     <ul id="nav-list" class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="aboutme.html"><span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> About Me</a>
+                            <a href="#abt"><span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> About Me</a>
                         </li>
                         <li>
-                            <a href="colab.html"><span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Collaboration</a>
+                            <a href="#colab"><span class="glyphicon glyphicon-heart"></span><br class="hidden-xs"> Collaboration</a>
                         </li>
                         <li>
-                            <a href="Connect with me.html"><span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Connect With Me</a>
+                            <a href="#colab"><span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Connect With Me</a>
                         </li>
                     </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <p id="abt">ABOUT ME</p>
-        <p id="abtpara">Hey!, My name is Ayush Singh. I'm a sophomore at Chitkara University, Punjab. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div id="gname">
+            <h6>Enter your name.</h6>
+            <input type="text" id="gnamebox">
+            <button onclick="greet();" id="button">Submit</button>
+        </div>
+        <p id="abt" >ABOUT ME</p>
+        <p id="abtpara">Hey!, My name is Ayush Singh. I'm a sophomore at Chitkara University, Punjab. I'm highly self driven and everyready to work on a project or learn something new. I consider myself a "Forever Student". Aren't we all?</p>
         <p>
             <img src="E:\Project-Portfolio\lay.png" id="lay">
         </p>
-        <br><br><br><br><br><br><br><br><br><br>
+        <p id="abtpara">I don't have a huge skillset right now, but I'm working everyday in order to add something new in my skillset. I love watching movies in my liesure time, Who doesn't?😋</p>
+        <p id="abt">What am I currently learning?</p>
+        <p id="abtpara">I'm currently exploring the field of Web Development. Also, I'll soon be stepping in Mobile App Development.</p>
+        <br><br><br><br><br><br><br>
         <p id="colab">COLLABORATE</p>
         <p id="colabpara">
             <div class="social_media">
@@ -75,6 +83,18 @@
         </p>
         <script src="js/Jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
+        <script>
+            function greet(){
+                var name=document.getElementById("gnamebox").value;
+                if(name==="Nandini"||name===""){
+                    var message="<h3>Welcome, "+name+" Ma'am.</h3>";
+                    document.getElementById("gname").innerHTML=message;
+                }
+                else{
+                    var message="<h3>Welcome, "+name+".</h3>";
+                    document.getElementById("gname").innerHTML=message;
+                }
+            }
+        </script>
     </body>
 </html>

@@ -52,15 +52,21 @@
             <input type="text" id="gnamebox">
             <button onclick="greet();" id="button">Submit</button>
         </div>
-        <p id="abt" >ABOUT ME</p>
+        <p id="abt"><u>ABOUT ME</u></p>
         <p id="abtpara">Hey!, My name is Ayush Singh. I'm a sophomore at Chitkara University, Punjab. I'm highly self driven and everyready to work on a project or learn something new. I consider myself a "Forever Student". Aren't we all?</p>
         <p>
-            <img src="E:\Project-Portfolio\lay.png" id="lay">
+            <img src="lay.png" id="lay">
         </p>
-        <p id="abtpara">I don't have a huge skillset right now, but I'm working everyday in order to add something new in my skillset. I love watching movies in my liesure time, Who doesn't?😋</p>
-        <p id="abt">What am I currently learning?</p>
+        <p id="abtpara">In case you're wondering what the hell is "Blaze". It's a synthesized name and add it in my every username. "Do More" is just something I found cool at the time.<br>I don't have a huge skillset right now, but I'm working everyday in order to add something new in my skillset. I love exploring new fields and projects. I really have this will to work in a team on some project and be consistent, I love being organised.</p>
+        <p id="abt"><u>What am I currently learning?</u></p>
         <p id="abtpara">I'm currently exploring the field of Web Development. Also, I'll soon be stepping in Mobile App Development.</p>
+        <p id="tools">Editors: </p>
+        <img id="vscode" src="https://img.icons8.com/fluent/96/000000/visual-studio-code-2019.png"/>
+        <img id="jupyter" src="Jupyter_logo.svg" height="96px" width="96px">
+        <p id="vscodetext">Visual Studio Code</p>
+        <p id="jupytertext">Jupyter Notebook</p>
         <br><br><br><br><br><br><br>
+        
         <p id="colab">COLLABORATE</p>
         <p id="colabpara">
             <div class="social_media">
@@ -86,7 +92,7 @@
         <script>
             function greet(){
                 var name=document.getElementById("gnamebox").value;
-                if(name==="Nandini"||name===""){
+                if(name==="Nandini"||name==="nandini"||name===""||name==="Mudita"||name==="mudita"){
                     var message="<h3>Welcome, "+name+" Ma'am.</h3>";
                     document.getElementById("gname").innerHTML=message;
                 }

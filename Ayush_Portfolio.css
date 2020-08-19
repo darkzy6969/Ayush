@@ -65,11 +65,32 @@ body{
     font-size: 40px;
     text-align: center;
     text-shadow: 2px;
+    
 }
 #abtpara{
     text-align: center;
     padding: 30px 150px 20px 150px;
     font-size: 20px;
+}
+#tools{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 140px;
+    font-family: 'Fjalla One', sans-serif;
+}
+#vscode{
+    margin-left: 140px;
+}
+#vscodetext{
+    margin-left: 140px;
+}
+#jupyter{
+    margin-left: 30px;
+    margin-top:0px;
+}
+#jupytertext{
+    margin-left: 266px;
+    margin-top: -29px
 }
 #colab{
     font-size: 40px;
